@@ -4,13 +4,13 @@
   "private": true,
   "scripts": {
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "test:api": "cypress run --spec 'cypress/integration/api/**/*'"
   },
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^16.0.3",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
     "cypress": "^12.17.4",
-    "cypress-cucumber-preprocessor": "^4.3.1",
     "esbuild": "^0.25.3",
     "typescript": "^4.0.0"
   }
